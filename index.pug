@@ -1,0 +1,94 @@
+.daybox
+  label
+    input#switch-night(type="checkbox")
+    .top
+      .moon
+      .cloud
+        .rain
+        .rain.rain2
+        .rain.rain3
+      svg.tempsvg
+        circle(cx=30 cy=75 r=3)
+        text(x=30 y=75) 28°C
+
+        circle(cx=85 cy=75 r=3)
+        text(x=85 y=75) 28°C
+
+        circle(cx=140 cy=75 r=3)
+        text(x=140 y=75) 28°C
+
+        circle(cx=195 cy=55 r=3)
+        text(x=195 y=55) 29°C
+
+        circle(cx=250 cy=40 r=3)
+        text(x=250 y=40) 30°C
+
+        circle(cx=305 cy=55 r=3)
+        text(x=305 y=55) 29°C
+
+        circle(cx=360 cy=55 r=3)
+        text(x=360 y=55) 29°C
+
+        polyline(points="30, 75 85, 75 140, 75 195, 55 250, 40 305, 55 360, 55")
+
+      .text-area
+        .temperature 28°C
+        .infos
+          .address 新竹市東區新竹
+          .time 星期日 下午8:00
+    .bottom
+        .dayweather
+          h3 Mon
+          svg(viewbox="-50 -50 100 100")
+            circle.sun(cx=0 cy=0 r=22)
+        .dayweather
+          h3 Tue
+          svg(viewbox="-50 -50 100 100")
+            circle.sun(cx=0 cy=0 r=22)
+        .dayweather
+          h3 Wed
+          svg(viewbox="-50 -50 100 100")
+            circle.sun(cx=0 cy=0 r=22)
+            circle.cloud(cx=0 cy=30 r=20)
+            circle.cloud(cx=-15 cy=30 r=20)
+            circle.cloud(cx=-30 cy=30 r=20)
+            circle.cloud(cx=-25 cy=20 r=15)
+            circle.cloud(cx=-7 cy=15 r=15)
+        .dayweather
+          h3 Thu
+          svg(viewbox="-60 -25 100 100")
+            line.rain(x1=-25 y1=15 x2=-25 y2=35)
+            line.rain(x1=-14 y1=5 x2=-14 y2=25)
+            line.rain(x1=-5 y1=20 x2=-5 y2=45)
+
+            circle.cloud(cx=0 cy=30 r=20)
+            circle.cloud(cx=-15 cy=30 r=20)
+            circle.cloud(cx=-30 cy=30 r=20)
+            circle.cloud(cx=-25 cy=20 r=15)
+            circle.cloud(cx=-7 cy=15 r=15)
+
+        .dayweather
+          h3 Fri
+          svg(viewbox="-60 -40 100 100")
+            circle.cloud(cx=0 cy=30 r=20)
+            circle.cloud(cx=-15 cy=30 r=20)
+            circle.cloud(cx=-30 cy=30 r=20)
+            circle.cloud(cx=-25 cy=20 r=15)
+            circle.cloud(cx=-7 cy=15 r=15)
+
+        .dayweather
+          h3 Sat
+          svg(viewbox="-50 -50 100 100")
+            circle.sun(cx=0 cy=0 r=22)
+        .dayweather
+          h3 Sun
+          svg(viewbox="-60 -25 100 100")
+            line.rain(x1=-25 y1=15 x2=-25 y2=35)
+            line.rain(x1=-14 y1=5 x2=-14 y2=25)
+            line.rain(x1=-5 y1=20 x2=-5 y2=45)
+
+            circle.cloud(cx=0 cy=30 r=20)
+            circle.cloud(cx=-15 cy=30 r=20)
+            circle.cloud(cx=-30 cy=30 r=20)
+            circle.cloud(cx=-25 cy=20 r=15)
+            circle.cloud(cx=-7 cy=15 r=15)
